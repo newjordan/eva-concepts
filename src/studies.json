@@ -1,0 +1,132 @@
+[
+  {
+    "id": "01",
+    "file": "01-concept.png",
+    "title": "Classic dashboard",
+    "summary": "Hex panels, glow, scan lines, MAGI",
+    "description": "A cyan command board of hexagonal panels. A central unit wireframe sits beside a waveform, the MAGI triad is marked active, and a warning band runs under scan-line glow.",
+    "tags": ["dashboard", "magi", "hex", "alert"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "02",
+    "file": "02-concept.png",
+    "title": "Grid layout",
+    "summary": "Radar, chamfered rects, MAGI badges",
+    "description": "Command-center grid of chamfered panels. A radar scan and activity readout share the board with three MAGI online badges and a small isometric interior.",
+    "tags": ["command", "radar", "magi"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "03",
+    "file": "03-concept.png",
+    "title": "Blueprint",
+    "summary": "Full-body wireframe, PCB traces, subtle glow",
+    "description": "Blueprint treatment of EVA-01. A full-body wireframe, GEO FRONT radar, and faint circuit traces sit under a quiet glow, with Melchior, Balthasar, and Casper in separate pills.",
+    "tags": ["blueprint", "eva-01", "magi"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "04",
+    "file": "04-concept.png",
+    "title": "Orange alert",
+    "summary": "Hex MAGI cluster, bar charts, 警報",
+    "description": "Alert palette pushed toward orange. A hexagonal MAGI cluster, a standing unit, a bar chart, and the 警報 marker sit under a command-center header.",
+    "tags": ["alert", "magi", "charts"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "05",
+    "file": "05-concept.png",
+    "title": "Clean & polished",
+    "summary": "Big titles, MAGI list, isometric",
+    "description": "The most poster-like frame. A large NERV command title, a full-body unit, a stacked MAGI list, and an isometric schematic with telemetry bars.",
+    "tags": ["command", "magi", "isometric"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "06",
+    "file": "06-concept.png",
+    "title": "Frosted merged panels",
+    "summary": "Smooth-min hex edges",
+    "description": "Panels join along smooth hex edges with a frosted fill. The NERV mark, a MAGI header, radar, charts, and the system list read as one merged cluster.",
+    "tags": ["panels", "magi", "frosted"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "07",
+    "file": "07-concept.png",
+    "title": "MAGI status cards",
+    "summary": "Horizontal, kanji labels",
+    "description": "Horizontal status cards for MAGI-1 Melchior, MAGI-2 Balthasar, and MAGI-3 Casper, set beside kanji labels for confidentiality, special orders, and alert.",
+    "tags": ["magi", "status", "kanji"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "08",
+    "file": "08-concept.png",
+    "title": "Green tactical",
+    "summary": "3 Eva units, military vibe",
+    "description": "Military green phosphor on black, framed in orange. Three Eva units — a large central portrait and two supporting plates — sit with radar and waveform readouts under NERV tactical ops.",
+    "tags": ["tactical", "eva", "military"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "09",
+    "file": "09-concept.png",
+    "title": "Multi-unit tactical",
+    "summary": "Synchro 68.4%, orange/green",
+    "description": "Tactical board for EVA-00, EVA-01, and EVA-02. Active status plates and a synchro readout of 68.4% share an orange and green frame.",
+    "tags": ["tactical", "synchro", "multi-unit"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "10",
+    "file": "10-concept.png",
+    "title": "Entry plug biometrics",
+    "summary": "Wireframe head, all-cyan",
+    "description": "All-cyan entry-plug medical board. A wireframe head is paired with sync ratio, pulse, heart rate, and body temperature around a central warning.",
+    "tags": ["biometrics", "entry-plug", "warning"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "11",
+    "file": "11-concept.png",
+    "title": "Full-body vitals",
+    "summary": "緊急 WARNING, pulse waves",
+    "description": "Full-body vitals wrapped around a central 緊急 WARNING. Pulse waves, temperature, blood, and a sync-ratio plate fill the surrounding cells.",
+    "tags": ["vitals", "warning", "sync"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "12",
+    "file": "12-concept.png",
+    "title": "MAGI components",
+    "summary": "Multicolor on black (playful)",
+    "description": "Playful component stickers on black. Separate colored outlines name MAGI, the supercomputer, Casper, Melchior, and Balthasar.",
+    "tags": ["magi", "components", "playful"],
+    "width": 600,
+    "height": 400
+  },
+  {
+    "id": "13",
+    "file": "13-concept.png",
+    "title": "MAGI intercomputer",
+    "summary": "Flat components, merged borders",
+    "description": "Flat intercomputer diagram. Merged borders connect a MAGI header to gauges, a network node, bars, and readout lists on a black field.",
+    "tags": ["magi", "intercomputer", "components"],
+    "width": 600,
+    "height": 400
+  }
+]
