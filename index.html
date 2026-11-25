@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#080a0d" />
+    <title>Eva Concepts — Operator console studies</title>
+    <meta
+      name="description"
+      content="Browsable gallery of thirteen Evangelion operator-console UI studies. Dark theme, keyboard navigation, original frames unchanged."
+    />
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#outlet">Skip to content</a>
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="brand" href="#/">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M16 3.5 27 9.8v12.4L16 28.5 5 22.2V9.8Z" fill="none" stroke="currentColor" stroke-width="1.6" />
+            <path d="M16 11.2 20.4 13.7v5L16 21.2 11.6 18.7v-5Z" fill="currentColor" />
+          </svg>
+          <span class="brand-text">
+            <span class="brand-kicker">Operator console</span>
+            <span class="brand-title">Eva Concepts</span>
+          </span>
+        </a>
+        <div class="top-tools">
+          <label class="search">
+            <span class="sr-only">Filter studies</span>
+            <input
+              id="search"
+              type="search"
+              placeholder="Filter studies"
+              autocomplete="off"
+              spellcheck="false"
+              aria-controls="outlet"
+            />
+          </label>
+          <button type="button" class="text-btn" id="help-btn" aria-haspopup="dialog">Shortcuts</button>
+        </div>
+      </div>
+    </header>
+    <noscript>
+      <p class="noscript wrap">
+        This gallery uses JavaScript for keyboard navigation and filtering. The original studies remain in the repository as 01-concept.png through 13-concept.png.
+      </p>
+    </noscript>
+    <main id="outlet" class="wrap" tabindex="-1">
+      <p class="lede">Loading studies…</p>
+    </main>
+    <footer class="foot">
+      <div class="wrap foot-inner">
+        <p id="hint"></p>
+        <p class="foot-note">Unofficial operator-console studies. Evangelion, NERV, and MAGI belong to their rights holders.</p>
+      </div>
+    </footer>
+    <div id="live" class="sr-only" aria-live="polite"></div>
+    <dialog id="help-dialog" aria-labelledby="help-title">
+      <form method="dialog" class="dialog-inner">
+        <div class="dialog-head">
+          <h2 id="help-title" tabindex="-1">Keyboard shortcuts</h2>
+          <button type="submit" class="text-btn" aria-label="Close shortcuts">Close</button>
+        </div>
+        <table class="shortcuts">
+          <tbody>
+            <tr>
+              <th colspan="2" scope="colgroup">Gallery</th>
+            </tr>
+            <tr>
+              <td><kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd></td>
+              <td>Move between studies</td>
+            </tr>
+            <tr>
+              <td><kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd></td>
+              <td>Same movement, vim style</td>
+            </tr>
+            <tr>
+              <td><kbd>Enter</kbd></td>
+              <td>Open the focused study</td>
+            </tr>
+            <tr>
+              <td><kbd>Home</kbd> <kbd>End</kbd></td>
+              <td>First or last visible study</td>
+            </tr>
+            <tr>
+              <td><kbd>/</kbd></td>
+              <td>Focus the filter</td>
+            </tr>
+            <tr>
+              <td><kbd>Esc</kbd></td>
+              <td>Clear the filter</td>
+            </tr>
+            <tr>
+              <th colspan="2" scope="colgroup">Study</th>
+            </tr>
+            <tr>
+              <td><kbd>←</kbd> <kbd>→</kbd></td>
+              <td>Previous or next study</td>
+            </tr>
+            <tr>
+              <td><kbd>H</kbd> <kbd>L</kbd></td>
+              <td>Previous or next study</td>
+            </tr>
+            <tr>
+              <td><kbd>Home</kbd> <kbd>End</kbd></td>
+              <td>First or last study</td>
+            </tr>
+            <tr>
+              <td><kbd>F</kbd></td>
+              <td>Toggle fit and actual size</td>
+            </tr>
+            <tr>
+              <td><kbd>Esc</kbd></td>
+              <td>Back to the gallery</td>
+            </tr>
+            <tr>
+              <td><kbd>/</kbd></td>
+              <td>Return to the filter</td>
+            </tr>
+            <tr>
+              <td><kbd>?</kbd></td>
+              <td>Open or close this dialog</td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </dialog>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
